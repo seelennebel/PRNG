@@ -42,7 +42,7 @@ int main (int argc, char** argv)
     uint32_t bit;
 
     int period = 0;
-// 10100101110100101100111111010100
+
     while(period < 1024)
     {
         std::bitset<32> neew(lfsr);
